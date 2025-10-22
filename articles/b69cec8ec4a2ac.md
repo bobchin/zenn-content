@@ -16,6 +16,12 @@ published: true
   - サインアップし、ログインしておく
   - 記述したコードは、上部の "[一覧](https://paiza.io/projects)" で見れる
   - 新しくコードを作成するには、"[新規コード](https://paiza.io/ja/projects/new)" を選択し、**Python3** を選択する
+  - タイトル(hello_world.py)を入れて、以下のコードを記述する
+
+    ```python:hello_world.py
+    print("Hello Python World!")
+    ```
+
   - 標準入力でデータを渡す場合は、下部の **入力** にデータを入れる
 
     - 取得するには以下を実行
@@ -56,8 +62,8 @@ published: true
   - 拡張機能で、[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) をインストール
   - ソースコード作成
 
-    ```python:main.py
-    print("Hello World!")
+    ```python:hello_world.py
+    print("Hello Python World!")
     ```
 
   - 右クリックして "Run Code" 選択する、もしくは、"CTRL+ALT+N" で実行できる
