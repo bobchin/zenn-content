@@ -1,6 +1,6 @@
 ---
 title: "Python勉強"
-emoji: "🐙"
+emoji: "🐍"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["python"]
 published: true
