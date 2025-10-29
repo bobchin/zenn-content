@@ -6,7 +6,7 @@ topics: ["python"]
 published: true
 ---
 
-# Python の勉強
+## Python の勉強
 
 ## 環境
 
