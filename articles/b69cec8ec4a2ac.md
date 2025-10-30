@@ -6,7 +6,43 @@ topics: ["python"]
 published: true
 ---
 
-## Python の勉強
+## 参考
+
+:::message
+公式
+
+- [Python Documentation](https://docs.python.org/ja/3/)
+
+  - [言語リファレンス](https://docs.python.org/ja/3/reference/index.html)
+
+  - [チュートリアル](https://docs.python.org/ja/3/tutorial/index.html)
+
+  - [標準ライブラリ](https://docs.python.org/ja/3/library/index.html)
+:::
+
+https://docs.python.org/ja/3/
+
+https://docs.python.org/ja/3/reference/index.html
+
+https://docs.python.org/ja/3/tutorial/index.html
+
+https://docs.python.org/ja/3/library/index.html
+
+---
+
+:::message
+MicroPython
+
+- [MicroPython Documentation](https://docs.micropython.org/en/latest/)
+
+- [MicroPython 日本語ドキュメント](https://micropython-docs-ja.readthedocs.io/ja/latest/)
+:::
+
+https://docs.micropython.org/en/latest/
+
+https://micropython-docs-ja.readthedocs.io/ja/latest/
+
+---
 
 ## 環境
 
