@@ -44,6 +44,18 @@ https://micropython-docs-ja.readthedocs.io/ja/latest/
 
 ---
 
+## チートシート
+
+:::message
+一覧
+- [Basic](https://github.com/ehmatthes/pcc_3e/blob/main/cheat_sheets/color_sheets/individual_sheets_color/beginners_python_cheat_sheet_pcc.pdf)
+- [If/While](https://github.com/ehmatthes/pcc_3e/blob/main/cheat_sheets/color_sheets/individual_sheets_color/beginners_python_cheat_sheet_pcc_if_while.pdf)
+- [List](https://github.com/ehmatthes/pcc_3e/blob/main/cheat_sheets/color_sheets/individual_sheets_color/beginners_python_cheat_sheet_pcc_lists.pdf)
+- [Dictionary](https://github.com/ehmatthes/pcc_3e/blob/main/cheat_sheets/color_sheets/individual_sheets_color/beginners_python_cheat_sheet_pcc_dictionaries.pdf)
+- [Function](https://github.com/ehmatthes/pcc_3e/blob/main/cheat_sheets/color_sheets/individual_sheets_color/beginners_python_cheat_sheet_pcc_functions.pdf)
+- [Class](https://github.com/ehmatthes/pcc_3e/blob/main/cheat_sheets/color_sheets/individual_sheets_color/beginners_python_cheat_sheet_pcc_classes.pdf)
+:::
+
 ## 環境
 
 ### ブラウザで実行する
