@@ -115,3 +115,52 @@ https://micropython-docs-ja.readthedocs.io/ja/latest/
     ```
 
   - 右クリックして "Run Code" 選択する、もしくは、"CTRL+ALT+N" で実行できる
+
+## 最短距離でゼロからしっかり学ぶ Python入門
+
+### 第２章 変数とシンプルなデータ型
+
+:::details 2-1. 簡単なメッセージ
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter2%2F2-01_simplemessage.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 2-2. 簡単な２つのメッセージ
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter2%2F2-02_twomessage.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 2-3. 個人的なメッセージ
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter2%2F2-03_personal_message.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 2-4. 名前の大文字小文字
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter2%2F2-04_upper_lower_name.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 2-5. 名言の引用
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter2%2F2-05_famouse_quote.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 2-6. 名言の引用２
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter2%2F2-06_famous_quote2.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 2-7. 名前から空白を取り除く
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter2%2F2-07_strip.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 2-8. ナンバー８
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter2%2F2-08_number8.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 2-9. 好きな数字
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter2%2F2-09_favorite_number.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 2-10. コメントを追加する
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter2%2F2-10_add_comment.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+
+### 第３章 リスト入門
+
+
