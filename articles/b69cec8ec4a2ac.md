@@ -120,6 +120,45 @@ https://micropython-docs-ja.readthedocs.io/ja/latest/
 
 ### 第２章 変数とシンプルなデータ型
 
+#### まとめ
+
+- データ型
+  - 文字列
+    - 文字
+    - 文字列
+  - 数値
+    - 整数
+    - 浮動小数点
+
+- 変数
+  - 英数字とアンダースコアを使う
+  - 数字で始めない（数値と区別がつかないため）
+
+- メソッド
+  - "".title()
+  - "".upper()
+  - "".lower()
+  - "".strip()
+  - "".rstrip()
+  - "".lstrip()
+
+- f-string
+  - 文字列の中で変数を使う
+
+- エスケープシーケンス
+  - **画面に表示されない文字(改行・タブなど)** を表す
+  - ダブルクォートやシングルクォートのエスケープ
+
+- 四則演算
+  - 割り算に注意
+
+- コメント
+
+- 定数
+
+
+#### やってみよう
+
 :::details 2-1. 簡単なメッセージ
 @[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter2%2F2-01_simplemessage.py&hideExplorer=1&hideNavigation=1&view=editor)
 :::
@@ -162,5 +201,50 @@ https://micropython-docs-ja.readthedocs.io/ja/latest/
 
 
 ### 第３章 リスト入門
+
+:::details 3-1. 名前
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter3%2F3-01_name.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 3-2. あいさつ
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter3%2F3-02_greeting.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 3-3. ほしいものリスト
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter3%2F3-03_wishlist.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 3-4. ゲスト一覧
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter3%2F3-04_guestlist.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 3-5. ゲスト一覧を変更する
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter3%2F3-05_changelist.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 3-6. より多くのゲスト
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter3%2F3-06_moreguests.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 3-7. ゲストを減らす
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter3%2F3-07_remove_guest.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 3-8. 世界を訪れよう
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter3%2F3-08_visit_the_world.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 3-9. 夕食のゲスト
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter3%2F3-09_supper_guest.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 3-10. すべての機能
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter3%2F3-10_all_functions.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 3-11. 意図的なエラー
+なし
+:::
+
 
 
