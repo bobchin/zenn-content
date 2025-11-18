@@ -122,6 +122,7 @@ https://micropython-docs-ja.readthedocs.io/ja/latest/
 
 #### まとめ
 
+:::details まとめ
 - データ型
   - 文字列
     - 文字
@@ -155,7 +156,7 @@ https://micropython-docs-ja.readthedocs.io/ja/latest/
 - コメント
 
 - 定数
-
+:::
 
 #### やってみよう
 
