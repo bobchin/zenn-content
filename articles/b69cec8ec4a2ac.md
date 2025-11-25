@@ -203,6 +203,44 @@ https://micropython-docs-ja.readthedocs.io/ja/latest/
 
 ### 第３章 リスト入門
 
+#### まとめ
+
+:::details まとめ
+
+- リスト
+  - 順番をもった要素(データ型)の集まり
+
+- **インデックス** に注意
+  - 範囲外にはアクセスしないようにする
+
+- リストの作成
+- 要素を取得
+- 追加・編集・削除
+  - 編集
+    - 要素に代入
+  - 追加
+    - [].append("xxx")
+    - [].insert(0, "xxx")
+  - 削除
+    - [].pop()
+      - [].pop(0)
+    - [].remove("xxx")
+    - del(xxx[0])
+- リストの整理
+  - ソート
+    - リストを変更してしまう
+      - [].sort()
+      - [].sort(reverse=True)
+    - リストを変更しな
+      - sorted([])
+  - 逆順
+    - [].reverse()
+
+- リストの要素数
+  - len([])
+
+:::
+
 :::details 3-1. 名前
 @[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter3%2F3-01_name.py&hideExplorer=1&hideNavigation=1&view=editor)
 :::
@@ -248,4 +286,56 @@ https://micropython-docs-ja.readthedocs.io/ja/latest/
 :::
 
 
+### 第４章 リストを操作する
 
+:::details 4-1. ピザのリスト
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter4%2F4-01_pizza_list.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 4-2. 動物のリスト
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter4%2F4-02_animals_list.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 4-3. 20まで数える
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter4%2F4-03_count20.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 4-4. 100万
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter4%2F4-04_milion.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 4-5. 100万までの合計
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter4%2F4-05_sum_of_milion.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 4-6. 奇数
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter4%2F4-06_odd_number.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 4-7. 3の倍数
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter4%2F4-07_multiples_of_3.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 4-8. 立方数
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter4%2F4-08_cubic_number.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 4-9. 立方数のん内包表記
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter4%2F4-09_list_comprehension.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 4-10. スライス
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter4%2F4-10_slice.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 4-11. 私のピザ、あなたのピザ
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter4%2F4-11_my_pizza_your_pizza.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 4-12. よりおおくのループ
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter4%2F4-12_more_loop.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+:::details 4-13. ビュッフェ
+@[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter4%2F4-13_buffet.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
