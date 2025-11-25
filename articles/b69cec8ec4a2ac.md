@@ -118,6 +118,9 @@ https://micropython-docs-ja.readthedocs.io/ja/latest/
 
 ## 最短距離でゼロからしっかり学ぶ Python入門
 
+https://gihyo.jp/book/2020/978-4-297-11570-8
+
+
 ### 第２章 変数とシンプルなデータ型
 
 #### まとめ
