@@ -244,6 +244,8 @@ https://gihyo.jp/book/2020/978-4-297-11570-8
 
 :::
 
+#### やってみよう
+
 :::details 3-1. 名前
 @[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter3%2F3-01_name.py&hideExplorer=1&hideNavigation=1&view=editor)
 :::
@@ -290,6 +292,8 @@ https://gihyo.jp/book/2020/978-4-297-11570-8
 
 
 ### 第４章 リストを操作する
+
+#### やってみよう
 
 :::details 4-1. ピザのリスト
 @[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter4%2F4-01_pizza_list.py&hideExplorer=1&hideNavigation=1&view=editor)
