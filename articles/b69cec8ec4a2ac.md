@@ -293,6 +293,14 @@ https://gihyo.jp/book/2020/978-4-297-11570-8
 
 ### 第４章 リストを操作する
 
+#### まとめ
+
+:::details まとめ
+- リストのループ
+  - for xxx in []:
+- インデントがブロックの範囲を表す
+:::
+
 #### やってみよう
 
 :::details 4-1. ピザのリスト
@@ -345,4 +353,115 @@ https://gihyo.jp/book/2020/978-4-297-11570-8
 
 :::details 4-13. ビュッフェ
 @[stackblitz](https://stackblitz.com/edit/secret-python-dbr2hzrf?embed=1&file=Chapter4%2F4-13_buffet.py&hideExplorer=1&hideNavigation=1&view=editor)
+:::
+
+
+### 第５章 ｉｆ文
+
+#### まとめ
+
+:::details まとめ
+:::
+
+#### やってみよう
+
+:::details 5-1. 条件テスト
+@[stackblitz]()
+:::
+
+:::details 5-2. より多くの条件テスト
+@[stackblitz]()
+:::
+
+:::details 5-3. エイリアンの色（その１）
+@[stackblitz]()
+:::
+
+:::details 5-4. エイリアンの色（その２）
+@[stackblitz]()
+:::
+
+:::details 5-5. エイリアンの色（その３）
+@[stackblitz]()
+:::
+
+:::details 5-6. ライフステージ
+@[stackblitz]()
+:::
+
+:::details 5-7. 好きな果物
+@[stackblitz]()
+:::
+
+:::details 5-8. こんにちは Admin
+@[stackblitz]()
+:::
+
+:::details 5-9. ユーザーがいない
+@[stackblitz]()
+:::
+
+:::details 5-10. ユーザー名を確認する
+@[stackblitz]()
+:::
+
+:::details 5-11. 序数
+@[stackblitz]()
+:::
+
+### 第６章 辞書
+
+#### まとめ
+
+:::details まとめ
+:::
+
+#### やってみよう
+
+:::details 6-1. 人の情報
+@[stackblitz]()
+:::
+
+:::details 6-2. 好きな数字
+@[stackblitz]()
+:::
+
+:::details 6-3. 用語辞典
+@[stackblitz]()
+:::
+
+:::details 6-4. 用語辞典２
+@[stackblitz]()
+:::
+
+:::details 6-5. 川
+@[stackblitz]()
+:::
+
+:::details 6-6. 投票
+@[stackblitz]()
+:::
+
+:::details 6-7. 人々
+@[stackblitz]()
+:::
+
+:::details 6-8. ペット
+@[stackblitz]()
+:::
+
+:::details 6-9. 好きな場所
+@[stackblitz]()
+:::
+
+:::details 6-10. 好きな数字
+@[stackblitz]()
+:::
+
+:::details 6-11. 都市
+@[stackblitz]()
+:::
+
+:::details 6-12. 拡張
+@[stackblitz]()
 :::
