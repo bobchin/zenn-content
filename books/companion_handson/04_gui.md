@@ -2,18 +2,6 @@
 title: "画面構成"
 ---
 
-## 画面構成
-
-> - [Connections](#connections)
-> - [Buttons](#buttons)
-> - [Surfaces](#surfaces)
-> - [Triggers](#triggers)
-> - [Variables](#variables)
-> - [Modules](#modules)
-> - [Settings](#settings)
-> - [Import/Export](#importexport)
-> - [Log](#log)
-
 ## Connections
 
 Comapnion でデイバスやソフトウェアを制御したい場合に、それらに接続するための方法を選択する。追加されているモジュールは、[Modules](#modules) で確認できる。

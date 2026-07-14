@@ -17,14 +17,6 @@ Companionを実行する環境に応じて[ダウンロード](https://user.bitf
 
 ## 設定
 
-> - [Surface](#surface)
-> - [Button Grid Size](#button-grid-size)
-> - [Buttons](#buttons)
-> - [Services](#services)
-> - [Usage Statistics](#usage-statistics)
-> - [Admin GUI Password](#admin-gui-password)
-> - [Timezone](#timezone)
-
 ### Surface
 
 USB サーフィスの検出設定
