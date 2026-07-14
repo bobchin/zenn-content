@@ -1,0 +1,19 @@
+title: "Companionハンズオン"
+summary: "Bitfocus Companionについて"
+topics: ["tech", "Companion", "StreamDeck"]
+# topic_depth: 1
+published: false
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - 01_about
+  - 02_links
+  - 03_install
+  - 04_gui
+  - 05_add_connection
+  - 06_add_button
+  - 07_change_button_face
+  - 08_variables
+  - 09_add_action
+  - 10_feedback
+  - 11_toggle_button
