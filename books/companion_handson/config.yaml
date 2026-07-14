@@ -12,8 +12,9 @@ chapters:
   - 04_gui
   - 05_add_connection
   - 06_add_button
-  - 07_change_button_face
-  - 08_variables
-  - 09_add_action
-  - 10_feedback
-  - 11_toggle_button
+  - 07_review_setting
+  - 08_change_button_face
+  - 09_variables
+  - 10_add_action
+  - 11_feedback
+  - 12_toggle_button
