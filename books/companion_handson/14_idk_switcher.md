@@ -22,18 +22,20 @@ OUT1 の入力を変更するボタンを作成してみます。
 
 - IN1
   ---
-  - Step1
-    - tcp-udp: Send Command
-      - Command              : @SSW,$(local:input),1
-      - Command End Character: CRLF - \r\n(Common Windows)
-  - Style
-    - Text
-      - Button text string: IN$(local:input)
   - Local Variables
     - internal: User Value
       - Variable name: input
       - Current Value: `1`
       - [x] Persist value
+
+  - Style
+    - Text
+      - Button text string: IN$(local:input)
+
+  - Step1
+    - tcp-udp: Send Command
+      - Command              : @SSW,$(local:input),1
+      - Command End Character: CRLF - \r\n(Common Windows)
 
   :::message
   以降は似た設定のため、ボタンの `Copy` を使うことをオススメします。
