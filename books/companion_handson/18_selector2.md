@@ -59,6 +59,24 @@ title: "セレクタを作成する（その２）"
     - [x] Create if not exists
     - $(expression:calc_center_display)
 
+グローバルの式変数 `center_moniter_command` を作成
+
+- $(expression:center_moniter_command)
+  - Name: center_moniter_command
+  - Description: center_moniter_command
+  - Expression: `@SSW,${$(custom:selected_center_ch)},${$(custom:center_monitor_ch)}`
+
+  :::message
+  Expression について
+  `@SSW,X,2` というコマンドを生成しています。`X` には、上記でセットした選択チャンネルがセットされます。
+  :::
+
+`Step1` に アクションを追加
+
+- Press actions
+  - tcp-udp: Send Command
+    - Command: $(expression:center_moniter_command)
+    - Command End Character: CRLF
 
 ## 出力画像表示ボタンの作成
 
