@@ -35,16 +35,16 @@ title: "セレクタを作成する（その２）"
     ```js
     $(custom:selected_center_ch) != 0
       && $(custom:selected_center_ch) == $(custom:selected_ch)
-      ? 0
+      ? $(custom:INPUT_OFF_CH)
       : $(custom:selected_ch)
     ```
 
   :::message
   Expression について
   `selected_center_ch` の値に応じて処理が変わります。
-  - 未送出時(selected_center_ch == 0)は選択中のチャンネルを割り当てます。
+  - 未送出時(selected_center_ch == INPUT_OFF_CH)は選択中のチャンネルを割り当てます。
   - 送出中の場合
-    - 送出中と同じものを選択している場合、0 (解除)を割り当てます。
+    - 送出中と同じものを選択している場合、INPUT_OFF_CH = 0 (解除)を割り当てます。
     - 送出中と違うものを選択している場合、選択中のチャンネルを割り当てます。
   :::
 
@@ -64,19 +64,23 @@ title: "セレクタを作成する（その２）"
 - $(expression:center_moniter_command)
   - Name: center_moniter_command
   - Description: center_moniter_command
-  - Expression: `@SSW,${$(custom:selected_center_ch)},${$(custom:center_monitor_ch)}`
+  - Expression: \`@SSW,\${\$(custom:selected_center_ch)},\${\$(custom:OUTPUT_CENTERMONITOR_CH)}\`
 
   :::message
   Expression について
   `@SSW,X,2` というコマンドを生成しています。`X` には、上記でセットした選択チャンネルがセットされます。
   :::
 
-`Step1` に アクションを追加
+トリガー `Send Preview Command` を作成
 
-- Press actions
-  - tcp-udp: Send Command
-    - Command: $(expression:center_moniter_command)
-    - Command End Character: CRLF
+- Send Preview Command
+  - Events
+    - On variable change
+      - Variable to watch: expression:preview_command
+  - Actions
+    - tcp-udp: Send Command
+      - Command: $(expression:center_moniter_command)
+      - Command End Character: CRLF
 
 ## 出力画像表示ボタンの作成
 

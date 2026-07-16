@@ -39,13 +39,13 @@ title: "セレクタを作成する（その４）"
 
 - Press actions
   - tcp-udp: Send Command
-    - Command: @EXC,1
+    - Command: $(custom:POWER_ON_CMD)
     - Command End Character: CRLF
 
 `Step2` のアクションを追加
 
 - Press actions
   - tcp-udp: Send Command
-    - Command: @EXC,2
+    - Command: $(custom:POWER_OFF_CMD)
     - Command End Character: CRLF
 

@@ -77,7 +77,7 @@ title: "セレクタを作成する（その３）"
   - internal: Custom Variable: Set value
     - Custom variable: selected_ch
     - [x] Create if not exists
-    - Value: 0
+    - Value: $(custom:INPUT_OFF_CH)
 
   - tcp-udp: Send Command
     - Command: $(expression:preview_command)
@@ -89,7 +89,7 @@ title: "セレクタを作成する（その３）"
   - internal: Custom Variable: Set value
     - Custom variable: selected_center_ch
     - [x] Create if not exists
-    - Value: 0
+    - Value: $(custom:INPUT_OFF_CH)
 
   - tcp-udp: Send Command
     - Command: $(expression:center_moniter_command)
@@ -101,7 +101,7 @@ title: "セレクタを作成する（その３）"
   - internal: Custom Variable: Set value
     - Custom variable: selected_projecter_ch
     - [x] Create if not exists
-    - Value: 0
+    - Value: $(custom:INPUT_OFF_CH)
 
   - tcp-udp: Send Command
     - Command: $(expression:projector_command)

@@ -14,22 +14,37 @@ title: "セレクタを作成する（その１）"
 
 IDK のスイッチャーを制御するため、`Connections` に `tcp-udp` を追加します。
 
-定数値として、以下のグローバル変数を 3 つ追加します。
+定数値として、以下のグローバル変数を 6 つ追加します。
 
-- $(custom:preview_ch)
+- $(custom:INPUT_OFF_CH)
+  - [x] Persist value
+    - Description: input off channel
+    - Current value: 0
+
+- $(custom:OUTPUT_PREVIEW_CH)
   - [x] Persist value
     - Description: output preview channel
     - Current value: 1
 
-- $(custom:center_monitor_ch)
+- $(custom:OUTPUT_CENTERMONITOR_CH)
   - [x] Persist value
     - Description: output center monitor channel
     - Current value: 2
 
-- $(custom:projector_ch)
+- $(custom:OUTPUT_PROJECTOR_CH)
   - [x] Persist value
     - Description: output projector channel
     - Current value: 3
+
+- $(custom:POWER_ON_CMD)
+  - [x] Persist value
+    - Description: power on command
+    - Current value: @EXC,1
+
+- $(custom:POWER_OFF_CMD)
+  - [x] Persist value
+    - Description: power off command
+    - Current value: @EXC,2
 
 
 ## 入力ボタンの作成
@@ -71,13 +86,18 @@ IDK のスイッチャーを制御するため、`Connections` に `tcp-udp` を
   - internal: Custom Variable: Set value
     - Custom variable: selected_ch
     - [x] Create if not exists
-    - Value: $(custom:selected_ch) == $(local:input_channel)? 0: $(local:input_channel)
+    - Value:
+      ```js
+      $(custom:selected_ch) == $(local:input_channel)
+        ? $(custom:INPUT_OFF_CH)
+        : $(local:input_channel)
+      ```
 
   :::message
   Value について
   Expression モードで Javascript の三項演算子を利用しています。
   グローバル変数 `selected_ch` とローカル変数 `input_channel` が
-  同じなら `0`
+  同じなら グローバル変数 `INPUT_OFF_CH` (= 0)
   違うなら ローカル変数 `input_channel`
   を設定しています。
   つまり選択中に同じボタンをクリックしたら解除にするということになります。
@@ -92,19 +112,23 @@ IDK スイッチャーにコマンドを送信します。
 - $(expression:preview_command)
   - Name: preview_command
   - Description: preview_command
-  - Expression: `@SSW,${$(custom:selected_ch)},${$(custom:preview_ch)}`
+  - Expression: \`@SSW,\${\$(custom:selected_ch)},\${\$(custom:OUTPUT_PREVIEW_CH)}\`
 
   :::message
   Expression について
   `@SSW,X,1` というコマンドを生成しています。`X` には、上記でセットした選択チャンネルがセットされます。
   :::
 
-`Step1` に アクションを追加
+トリガー `Send Preview Command` を作成
 
-- Press actions
-  - tcp-udp: Send Command
-    - Command: $(expression:preview_command)
-    - Command End Character: CRLF
+- Send Preview Command
+  - Events
+    - On variable change
+      - Variable to watch: expression:preview_command
+  - Actions
+    - tcp-udp: Send Command
+      - Command: $(expression:preview_command)
+      - Command End Character: CRLF
 
 ## ボタン選択中の効果を追加
 
