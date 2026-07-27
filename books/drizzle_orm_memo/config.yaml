@@ -1,0 +1,10 @@
+title: "Drizzle"
+summary: "Drizzle ORM のメモ"
+topics: ["tech", "drizzle"]
+published: false
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - drizzle
+  - links
+  - get_started
