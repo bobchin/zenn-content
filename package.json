@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "help": "npx zenn --help",
+    "list": "npx zenn list:articles",
+    "new": "npx zenn new:articles",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
